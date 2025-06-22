@@ -1,6 +1,9 @@
-# TrendSage Chatbot – Decode the Digital Culture
+# 📲 TrendSage Chatbot – Decode the Digital Culture
 
 TrendSage is an AI-powered chatbot designed to explain internet slang, meme culture, and digital trends. Think of it as your chill, clued-in friend who keeps you up to date with what’s hot online — powered by GPT-4 and Reddit.
+## Trendsage UI
+![Trendsage Welcome Chatbot Screenshot](images/trendsage_welcome_ui.png)
+![Trendsage Chatbot Screenshot](images/trendsage_ui.png)
 
 ## Features
 - Chatbot powered by OpenAI GPT-4
