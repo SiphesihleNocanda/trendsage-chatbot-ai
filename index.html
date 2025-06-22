@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TrendSage</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #A66DD4, #F0F0F0);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #333;
+    }
+    .container {
+      text-align: center;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    .btn {
+      padding: 1rem 2rem;
+      background-color: #A66DD4;
+      border: none;
+      border-radius: 12px;
+      font-size: 1rem;
+      color: white;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #8d55be;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to TrendSage 📲</h1>
+    <p>Your AI-powered guide to what's popping online</p>
+    <button class="btn" onclick="redirectToChat()">Enter the Chat</button>
+  </div>
+
+  <script>
+    function redirectToChat() {
+      window.location.href = "http://localhost:5007";
+    }
+  </script>
+</body>
+</html>
